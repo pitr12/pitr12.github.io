@@ -29,6 +29,10 @@ h3 {
     color: #000;
 }
 
+.centered {
+    text-align: center;
+}
+
 .brand-color {
     color: #22A7F0;
 }
@@ -37,7 +41,7 @@ h3 {
     border-radius: 0;
 }
 
-.btn-success {
+.btn-success, .btn-success:hover {
     background-color: #22A7F0;
 }
 
@@ -348,4 +352,81 @@ p.copyright {
     .columns {
         width: 100%;
     }
+}
+
+label {
+    float: left;
+    padding-left: 5px;
+}
+
+.block{
+    float: left;
+    width: 75%;
+    height: 100px;
+    display: table;
+}
+
+.block img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.block span {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.double-arrow{
+    font-size: 65px;
+    color: #22A7F0;
+}
+
+.about-text {
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.team-img{
+    width: 225px !important;
+    height: auto;
+}   
+
+.label-primary {
+    background-color: #22A7F0;
+}
+
+.pricing-alert {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subscribe-row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subscribe-row .form-group {
+    margin-top: 8px;
 }
